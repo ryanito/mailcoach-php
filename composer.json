@@ -1,5 +1,6 @@
 {
     "name": "ryanito/mailcoach-php",
+    "description": "A Facade class for the Mailcoach API.",
     "type": "library",
     "authors": [
         {
@@ -9,10 +10,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Humblefox\\Mailcoach\\": "src/"
+            "Ryanito\\Mailcoach\\": "src/"
         }
     },
     "require": {
+        "php": "^7.2.5 || ^8.0",
         "guzzlehttp/guzzle": "^7.4"
     }
 }
